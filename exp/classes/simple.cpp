@@ -33,8 +33,8 @@ int main(int argc, char* argv[]) {
 	Rectangle myRect = Rectangle(4, 9);
 	Square mySquare = Square(4);
 	
-	std::cout << "wow the area of the rect is: " << myRect.GetArea() << std::endl;
-	std::cout << "wow the area of the square is: " << mySquare.GetArea() << std::endl;
+	std::cout << "wow the area of the rect(4,9) is: " << myRect.GetArea() << std::endl;
+	std::cout << "wow the area of the square(4,4) is: " << mySquare.GetArea() << std::endl;
 
 	return 0;
 }
